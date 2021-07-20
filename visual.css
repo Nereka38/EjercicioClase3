@@ -1,0 +1,42 @@
+html {
+  font-family: arial;
+  background: white;
+  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v748-toon-65_1_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=6885284e6830200a9e9218dfb5f4286a);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 16px;
+}
+
+h2 {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+li {
+  font-size: 16px;
+}
+
+.dark-background-color {
+  background-color: black;
+  opacity: 75%;
+}
+
+.buttons {
+  position: absolute;
+  top: 0.3em;
+  right: 3em;
+  display: flex;
+  font-size: 1.5em;
+}
+
+.zoom {
+  margin-left: 0.3em;
+  padding: 0.5em;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+footer {
+  padding: 1.5em;
+}

@@ -1,0 +1,45 @@
+header,
+footer,
+main {
+  text-align: center;
+}
+
+.dark-background-color {
+  background-color: black;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  padding: 1em 0;
+}
+
+#descripcion {
+  padding: 1.5em 0;
+}
+
+main {
+  width: 75%;
+  margin: 0 auto;
+  padding: 0.5em 0;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 0.5em 0;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0.5em 0.5em;
+  padding: 0;
+}
+
+ul li {
+  padding: 10px 5px;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="positions.css" />
+    <link rel="stylesheet" href="visual.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="flex.css" />
+
+    <title>Sobre Mí</title>
+  </head>
+
+  <body class="bodyzoom">
+    <header class="dark-background-color">
+      <h1>Sobre Mí</h1>
+    </header>
+
+    <main>
+      <p id="Descripcion">
+        ¡Hola! Soy Nerea y soy de Asturias. Tengo 26 años y ahora mismo estoy
+        realizando el curso de Teach Tech.
+      </p>
+
+      <div class="contenedor-listas">
+        <div class="dark-background-color">
+          <div class="lista-estudios">
+            <h2 id="estudios">Estudios</h2>
+            <ul class="estudios">
+              <li>FP Laboratorio Clínico</li>
+              <li>Grado en Nutrición Humana y Dietética</li>
+              <li>Máster en Nutrición Clínica</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="dark-background-color">
+          <div class="lista-aficiones">
+            <h2 id="aficiones">Aficiones</h2>
+            <ul class="aficiones">
+              <li>Series y películas <i>(siempre en VO)</i></li>
+              <li>Leer</li>
+              <li>Caminar</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="dark-background-color">
+      <div class="buttons">
+        <input
+          type="button"
+          value="-1px"
+          div
+          class="zoom"
+          id="zoom1"
+          onclick="zoom1()"
+        />
+        <input
+          type="button"
+          value="+25%"
+          div
+          class="zoom"
+          id="zoom2"
+          onclick="zoom2()"
+        />
+        <input
+          type="button"
+          value="100%"
+          div
+          class="zoom"
+          id="zoom3"
+          onclick="zoom3()"
+        />
+      </div>
+      <script>
+        var zoom1 = function () {
+          document.getElementsByClassName("bodyzoom")[0].style.fontSize =
+            "15px";
+        };
+        var zoom2 = function () {
+          document.getElementsByClassName("bodyzoom")[0].style.fontSize =
+            "125%";
+        };
+        var zoom3 = function () {
+          document.getElementsByClassName("bodyzoom")[0].style.fontSize =
+            "100%";
+        };
+      </script>
+    </footer>
+  </body>
+</html>
